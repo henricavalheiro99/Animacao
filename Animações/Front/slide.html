@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animações</title>
+</head>
+<body class="tudo">
+    <style>
+        .tudo{
+            background-image: url(../img/deuses.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            animation-name: MudaImagem;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+        }
+
+        @keyframes MudaImagem {
+            0%{
+                background-image: url(../img/deuses.webp);
+            }
+
+            25%{
+                background-image: url(../img/bluelock.webp);
+            }
+
+            50%{
+                background-image: url(../img/jojo.jpg);
+            }
+
+            75%{
+                background-image: url(../img/ayanokoji.webp);
+            }
+
+            100%{
+                background-image: url(../img/onepiece.jpg);
+            }
+        }
+    </style>
+</body>
+</html>
